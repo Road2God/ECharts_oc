@@ -1,0 +1,22 @@
+{
+  "name": "ECharts_oc",
+  "version": "0.1.0",
+  "summary": "A short description of ECharts_oc.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/huangqimeng/ECharts_oc",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huangqimeng": "hqm_vip@163.com"
+  },
+  "source": {
+    "git": "https://github.com/huangqimeng/ECharts_oc.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ECharts_oc/Classes/**/*"
+}

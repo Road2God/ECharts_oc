@@ -1,0 +1,6 @@
+framework module ECharts_oc {
+  umbrella header "ECharts_oc-umbrella.h"
+
+  export *
+  module * { export * }
+}
