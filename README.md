@@ -1,6 +1,6 @@
 # ECharts_oc
 
-[![CI Status](https://img.shields.io/travis/huangqimeng/ECharts_oc.svg?style=flat)](https://travis-ci.org/huangqimeng/ECharts_oc)
+[![CI Status](https://travis-ci.org/Road2God/ECharts_oc.svg?branch=master)](https://travis-ci.org/Road2God/ECharts_oc)
 [![Version](https://img.shields.io/cocoapods/v/ECharts_oc.svg?style=flat)](https://cocoapods.org/pods/ECharts_oc)
 [![License](https://img.shields.io/cocoapods/l/ECharts_oc.svg?style=flat)](https://cocoapods.org/pods/ECharts_oc)
 [![Platform](https://img.shields.io/cocoapods/p/ECharts_oc.svg?style=flat)](https://cocoapods.org/pods/ECharts_oc)
