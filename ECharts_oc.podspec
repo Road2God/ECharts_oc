@@ -31,14 +31,14 @@ chart 组件，待描述hkhkhkhhkhkhkhiytytyfrydtsxresewasezxdxfxgcgcgchdt
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.9"
+  # s.osx.deployment_target = "10.9"
 
   s.source_files = 'ECharts_oc/Classes/**/*'
   
   s.requires_arc = true
   # s.prefix_header_contents = "#import "PYUtilities.h""
-  s.ios.frameworks = "UIKit"
-  s.osx.frameworks = "AppKit", "WebKit"
+  s.ios.frameworks = "UIKit", "WebKit"
+  # s.osx.frameworks = "AppKit", "WebKit"
   
   # s.resource_bundles = {
   #   'ECharts_oc' => ['ECharts_oc/Assets/*.png']
