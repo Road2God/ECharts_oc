@@ -2,13 +2,33 @@
 # * https://www.objc.io/issues/6-build-tools/travis-ci/
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode7.3
+osx_image: xcode10.1
 language: objective-c
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
+
+env:
+  global:
+    - LC_TYPE=en_US.UTF-8
+    - LANG=en_US.UTF-8
+  matrix:
+    - TEST_TYPE=iOS
+    - TEST_TYPE=OSX
+
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/ECharts_oc.xcworkspace -scheme ECharts_oc-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
+
+script:
+- |
+    if [ "$TEST_TYPE" = iOS ]; then
+      xcodebuild clean build -workspace Example/ECharts_oc.xcworkspace -target ECharts_oc-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO
+    elif [ "$TEST_TYPE" = OSX]; then
+      xcodebuild clean build -workspace Example/ECharts_oc.xcworkspace -target ECharts_oc-Example -sdk macosx
+    fi
+
+notifications:
+  email: hqm_vip@163.com
