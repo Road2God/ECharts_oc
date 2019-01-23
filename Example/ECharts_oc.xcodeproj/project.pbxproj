@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		1BAB951C3D6CF86A0FF57CCF /* Pods_ECharts_oc_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECharts_oc_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		366AE27DF150BE2EAF7D81CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		379CB4A95DDF5BEF131828D3 /* ECharts_oc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ECharts_oc.podspec; path = ../ECharts_oc.podspec; sourceTree = "<group>"; };
-		58C22714AC125820E2620557 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		366AE27DF150BE2EAF7D81CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		379CB4A95DDF5BEF131828D3 /* ECharts_oc.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ECharts_oc.podspec; path = ../ECharts_oc.podspec; sourceTree = "<group>"; };
+		58C22714AC125820E2620557 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ECharts_oc_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECharts_oc_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -529,9 +529,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECharts_oc/ECharts_oc-Prefix.pch";
 				INFOPLIST_FILE = "ECharts_oc/ECharts_oc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -544,9 +546,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ECharts_oc/ECharts_oc-Prefix.pch";
 				INFOPLIST_FILE = "ECharts_oc/ECharts_oc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
