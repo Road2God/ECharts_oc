@@ -1,3 +1,4 @@
+
 #
 # Be sure to run `pod lib lint ECharts_oc.podspec' to ensure this is a
 # valid spec before submitting.
@@ -26,7 +27,7 @@ chart 组件，待描述hkhkhkhhkhkhkhiytytyfrydtsxresewasezxdxfxgcgcgchdt
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KeymonWong' => 'hqm_vip@163.com' }
-  s.source           = { :git => 'https://github.com/Road2God/ECharts_oc.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Road2God/ECharts_oc.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = "8.0"
