@@ -25,7 +25,7 @@ script:
 script:
 - |
     if [ "$TEST_TYPE" = iOS ]; then
-      xcodebuild clean build -workspace Example/ECharts_oc.xcworkspace -scheme ECharts_oc-Example -sdk iphonesimulator8.1 ONLY_ACTIVE_ARCH=NO
+      xcodebuild clean build -workspace Example/ECharts_oc.xcworkspace -scheme ECharts_oc-Example -sdk iphonesimulator8.1 ONLY_ACTIVE_ARCH=NO | xcpretty
     elif [ "$TEST_TYPE" = OSX]; then
       xcodebuild clean build -workspace Example/ECharts_oc.xcworkspace -target ECharts_oc-Example -sdk macosx
     fi

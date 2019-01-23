@@ -22,7 +22,7 @@ pod 'ECharts_oc'
 
 ## Author
 
-huangqimeng, hqm_vip@163.com
+KeymonWong, hqm_vip@163.com
 
 ## License
 
